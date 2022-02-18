@@ -30,3 +30,11 @@
 *.exe
 *.out
 *.app
+raytracer
+
+# Scons
+.sconsign.dblite
+
+# When configure fails, SCons outputs these
+config.log
+.sconf_temp

@@ -1,0 +1,15 @@
+Camera  -5  -8  10    0   0   0    0   0   1   40
+
+Ambient 0.25  0.25  0.25
+
+Light  0     -4    8   .6  0  0   0  0  .01
+Light  3.464  2    8    0 .6  0   0  0  .01
+Light -3.464  2    8    0  0 .6   0  0  .01
+
+Texture TexSolid        1  1  1
+Texture TexChecker      1  0  1   0  1  0    1
+
+Material                0.2  0.6  1.0 1000  0  0  0
+
+Primitive PrimSphere    0 0     0  0  1  2
+Primitive PrimPlane     1 0     0  0  1  0.001

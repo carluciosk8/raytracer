@@ -1,0 +1,14 @@
+Seed time
+
+Camera   30  10   -15         0    0  -22     0    1    0       45
+
+Ambient 0.1 0.1 0.1
+
+Light    10   100    10    1  1  1   1  0  0
+Light   100   100   100    1  1  1   1  0  0
+
+Texture TexMarble  rnd 0 1 rnd 0 1 rnd 0 1   rnd 0 1 rnd 0 1 rnd 0 1    rnd 0 0.1  rnd 0 4 rnd 0 1
+
+Material 0.4  0.6  0.0    1  0  0  0
+
+Primitive PrimSphere 0 0     6   5 -10     10

@@ -1,0 +1,36 @@
+Seed time
+
+Camera   30  10   -15         0    0  -22     0    1    0       45
+
+;
+;
+Ambient 0.1 0.1 0.1
+
+;         X     Y     Z    R  G  B   a  b  c
+;
+Light    10   100    10    1  1  1   1  0  0
+Light   100   100   100    1  1  1   1  0  0
+
+
+;                 C0       C1       C2       C3         E0       E1       E2       E3         Octaves   Color1                    Color2                      Color[0]                 Color[1]                 Color[2]
+;
+Texture TexCellular  rnd -4 4 rnd -4 4 rnd -4 4 rnd -4 4   rnd -4 4 rnd -4 4 rnd -4 4 rnd -4 4   rnd 1 5   rnd 0 1 rnd 0 1 rnd 0 1   rnd 0 1 rnd 0 1 rnd 0 1     rnd 0 1 rnd 0 1 rnd 0 1  rnd 0 1 rnd 0 1 rnd 0 1  rnd 0 1 rnd 0 1 rnd 0 1
+Texture TexCellular  rnd -4 4 rnd -4 4 rnd -4 4 rnd -4 4   rnd -4 4 rnd -4 4 rnd -4 4 rnd -4 4   rnd 1 5   rnd 0 1 rnd 0 1 rnd 0 1   rnd 0 1 rnd 0 1 rnd 0 1     rnd 0 1 rnd 0 1 rnd 0 1  rnd 0 1 rnd 0 1 rnd 0 1  rnd 0 1 rnd 0 1 rnd 0 1
+Texture TexCellular  rnd -4 4 rnd -4 4 rnd -4 4 rnd -4 4   rnd -4 4 rnd -4 4 rnd -4 4 rnd -4 4   rnd 1 5   rnd 0 1 rnd 0 1 rnd 0 1   rnd 0 1 rnd 0 1 rnd 0 1     rnd 0 1 rnd 0 1 rnd 0 1  rnd 0 1 rnd 0 1 rnd 0 1  rnd 0 1 rnd 0 1 rnd 0 1
+
+; TexCellular -2.388633  2.583936 -0.586253  2.545802   -1.769712 -3.356898 -3.579217 -3.961571   4   0.451326 0.016051 0.364215   0.620499 0.144518 0.395268      0.274972 0.518330 0.144462   0.725728 0.459241 0.500240   0.825891 0.209013 0.026589
+; TexCellular -2.961922 -3.300508 -3.812790 -1.103038    3.848182  3.387276  3.797226  0.998643   1   0.703508 0.993671 0.886205   0.924066 0.496317 0.929521      0.905119 0.981930 0.862353   0.656878 0.983695 0.295759   0.426148 0.112424 0.428076
+; TexCellular  2.275207  0.559147  2.753073  2.304102    0.719954  2.032550  1.176585  3.205916   4   0.719101 0.057419 0.865584   0.841005 0.315349 0.388602      0.673831 0.581751 0.959127   0.329486 0.467108 0.243124   0.767591 0.844329 0.170393
+
+
+;
+;
+Material 0.4  0.6  0.0    1  0  0  0
+Material 0.4  0.6  0.7   50  0  0  0
+Material 0.3  0.5  0.6   20  0  0  0
+
+;
+;
+Primitive PrimSphere 0 1     6   5 -10     10
+; Primitive PrimSphere 1 1    10  -5 -25   10
+; Primitive PrimSphere 2 1   -10   4 -25   10
